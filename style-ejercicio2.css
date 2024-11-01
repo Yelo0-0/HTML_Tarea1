@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-size: 16px;
+}
+
+/* Título principal */
+#titulo {
+    color: teal;
+}
+
+/* Subtítulo */
+#subtitulo {
+    color: blue;
+}
+
+/* Texto en negrita */
+strong {
+    color: red;
+}
+
+/* Texto destacado en span */
+.destacado {
+    color: orange;
+}
+
+/* Enlaces */
+a {
+    color: red;
+}
+
+/* Texto en énfasis (em) dentro del enlace */
+a em {
+    color: purple;
+}
+
+/* Texto especial en span */
+.especial {
+    color: purple;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Bordes de la tabla */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Título de la tabla */
+caption {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Encabezados y pie de tabla */
+thead th.especial, tfoot th {
+    color: red;
+}
+
+/* Celdas de encabezado en la fila */
+thead th, tfoot th, tbody th {
+    padding: 8px;
+}
+
+/* Filas de la tabla */
+tbody th.especial {
+    color: orange;
+}
+
+/* Celdas especiales de la tabla */
+tbody td {
+    color: green;
+}
+
+/* Estilo adicional para celdas con em */
+tbody td em {
+    font-style: italic;
+    color: green;
+}

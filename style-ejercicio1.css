@@ -1,0 +1,37 @@
+/* Todos los elementos de la página */
+* {
+    font-size: 20px;
+}
+
+/* Todos los párrafos (<p>) de la página */
+p {
+    color: #444;
+}
+
+/* Todos los párrafos que se encuentren dentro del elemento con id "contenedor" */
+#contenedor p {
+    color: #447799;
+}
+
+/* Todos los enlaces de la página */
+a {
+    color: #CC3311;
+}
+
+/* Los elementos "em" que se encuentren dentro del elemento con id "contenedor" */
+#contenedor em 
+    background: #FFFF00;
+    padding: .1em;
+}
+
+/* Todos los elementos "em" que tengan la clase "resaltado" en toda la página */
+em.resaltado {
+    background: #FFCC66;
+    border: 1px solid #FF9955;
+    padding: 5px;
+}
+
+/* Elementos "span" que se encuentren dentro del elemento con la clase "normal" */
+.normal span {
+    font-weight: bold;
+}

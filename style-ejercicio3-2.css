@@ -1,0 +1,81 @@
+h1 {
+            color: red;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        h1 span {
+            color: blue;
+            font-weight: bold;
+        }
+
+        h1 span:last-of-type {
+            color: green;
+        }
+
+        /* Estilo para la tabla */
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+
+        /* Estilo para cada celda de la tabla */
+        td {
+            width: 25%;
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            color: yellow;
+            border: 1px solid black;
+        }
+
+        /* Colores de fondo para cada celda */
+         tr:nth-child(1) td {
+            background-color: lightgray;
+        }
+
+        tr:nth-child(2) td {
+            background-color: gray;
+        }
+
+        tr:nth-child(3) td {
+            background-color: lightgray;
+        }
+
+        tr:nth-child(4) td {
+            background-color: gray;
+        }
+
+
+        /* Colores de texto */
+        .y{
+            color: yellow;
+        }
+        .g {
+            color: green;
+        }
+        .b {
+            color: blue;
+        }
+       .r {
+            color: red;
+        }
+
+        .br:hover{
+            background-color: red;
+            color: white;
+        }
+        .bb:hover{
+            background-color: blue;
+            color: white;
+        }.bg:hover{
+            background-color: green;
+            color: white;
+        }
+        .by:hover{
+            background-color: yellow;
+            color: white;
+        }
